@@ -10,6 +10,7 @@ public class Atividade1 {
 		double dMenor = input.nextDouble();
 		double area = (dMaior * dMenor) / 2;
 		System.out.println("A area do losângo é : " + area);
+		input.close();
 	}
 
 }
